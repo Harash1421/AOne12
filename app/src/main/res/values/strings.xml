@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+    <string name="Locations">Location</string>
+    <string name="ShowLocations">Show All Locations</string>
+
+    <!-- Countries Array -->
+    <string-array name="Countries">
+        <item><string>Kabul, Afghanistan </string></item>
+        <item><string>Tirane, Albania</string></item>
+        <item><string>Algiers, Algeria</string></item>
+        <item><string>Andorra la Vela, Andorra</string></item>
+        <item><string>Luanda, Angola</string></item>
+        <item><string>Antarctica</string></item>
+        <item><string>Saint John\'s, Antigua and Barbuda</string></item>
+        <item><string>Buenos Aires, Argentina</string></item>
+        <item><string>Yerevan, Armenia</string></item>
+        <item><string>Canberra, Australia</string></item>
+        <item><string>Vienna, Austria</string></item>
+        <item><string>Baku, Azerbaijan</string></item>
+        <item><string>Nassau, Bahamas</string></item>
+        <item><string>Manama, Bahrain</string></item>
+        <item><string>Dhaka, Bangladesh</string></item>
+        <item><string>Bridgetown, Barbados</string></item>
+        <item><string>Minsk, Belarus</string></item>
+        <item><string>Brussels, Belgium</string></item>
+        <item><string>Belmopan, Belize</string></item>
+        <item><string>Porto Novo, Benin</string></item>
+        <item><string>Thimphu, Bhutan</string></item>
+        <item><string>La Paz, Bolivia</string></item>
+        <item><string>Sarajevo, Bosnia and Herzegovina</string></item>
+        <item><string>Gaborone, Botswana</string></item>
+        <item><string>Brasilia, Brazil</string></item>
+        <item><string>Bandar Seri Begawan, Brunei</string></item>
+        <item><string>Sofia, Bulgaria</string></item>
+        <item><string>Ouagadougou, Burkina Faso</string></item>
+        <item><string>Gitega, Burundi</string></item>
+        <item><string>Phnom Penh, Cambodia</string></item>
+        <item><string>Yaounde, Cameroon</string></item>
+        <item><string>Ottawa, Canada</string></item>
+        <item><string>Praia, Cape Verde</string></item>
+        <item><string>Bangui, Central African Republic</string></item>
+        <item><string>N\'Djamena, Chad</string></item>
+        <item><string>Santiago, Chile</string></item>
+        <item><string>Beijing, China</string></item>
+        <item><string>Bogota, Colombia</string></item>
+        <item><string>Moroni, Comoros</string></item>
+        <item><string>Kinshasa, Congo</string></item>
+        <item><string>Kinshasa, Costa Rica</string></item>
+        <item><string>Yamoussoukro, Cote d\'Ivoire</string></item>
+        <item><string>Zagreb, Croatia</string></item>
+        <item><string>Havana, Cuba</string></item>
+        <item><string>Nicosia, Cyprus</string></item>
+        <item><string>Prague, Czech Republic</string></item>
+        <item><string>Copenhagen, Denmark</string></item>
+        <item><string>Djibouti, Djibouti</string></item>
+        <item><string>Roseau, Dominica</string></item>
+        <item><string>Santo Domingo, Dominican Republic</string></item>
+        <item><string>Dili, East Timor</string></item>
+        <item><string>Quito, Ecuador</string></item>
+        <item><string>Cairo, Egypt</string></item>
+        <item><string>San Salvador, El Salvador</string></item>
+        <item><string>Malabo, Equatorial Guinea</string></item>
+        <item><string>Asmara, Eritrea</string></item>
+        <item><string>Tallinn, Estonia</string></item>
+        <item><string>Addis Ababa, Ethiopia</string></item>
+        <item><string>Palikir, Faeroe Islands</string></item>
+        <item><string>Suva, Fiji</string></item>
+        <item><string>Helsinki, Finland</string></item>
+        <item><string>Paris, France</string></item>
+        <item><string>Libreville, Gabon</string></item>
+        <item><string>Banjul, Gambia</string></item>
+        <item><string>Tbilisi, Georgia</string></item>
+        <item><string>Berlin, Germany</string></item>
+        <item><string>Accra, Ghana</string></item>
+        <item><string>Athens, Greece</string></item>
+        <item><string>Saint George\'s, Grenada</string></item>
+        <item><string>Guatemala City, Guatemala</string></item>
+        <item><string>Conakry, Guinea</string></item>
+        <item><string>Bissau, Guinea Bissau</string></item>
+        <item><string>Georgetown, Guyana</string></item>
+        <item><string>Port au Prince, Haiti</string></item>
+        <item><string>Tegucigalpa, Honduras</string></item>
+        <item><string>Hong Kong, Hong Kong</string></item>
+        <item><string>Budapest, Hungary</string></item>
+        <item><string>Reykjavik, Iceland</string></item>
+        <item><string>Jakarta, Indonesia</string></item>
+        <item><string>Tehran, Iran</string></item>
+        <item><string>Baghdad, Iraq</string></item>
+        <item><string>Dublin, Ireland</string></item>
+        <item><string>Rome, Italy</string></item>
+        <item><string>Kingston, Jamaica</string></item>
+        <item><string>Tokyo, Japan</string></item>
+        <item><string>Nur Sultan, Kazakhstan</string></item>
+        <item><string>Nairobi, Kenya</string></item>
+        <item><string>Tarawa Atoll, Kiribati</string></item>
+        <item><string>Pristina, Kosovo</string></item>
+        <item><string>Kuwait City, Kuwait</string></item>
+        <item><string>Bishkek, Kyrgyzstan</string></item>
+        <item><string>Vientiane, Laos</string></item>
+        <item><string>Riga, Latvia</string></item>
+        <item><string>Beirut, Lebanon</string></item>
+        <item><string>Maseru, Lesotho</string></item>
+        <item><string>Monrovia, Liberia</string></item>
+        <item><string>Tripoli, Libya</string></item>
+        <item><string>Vaduz, Liechtenstein</string></item>
+        <item><string>Vilnius, Lithuania</string></item>
+        <item><string>Luxembourg, Luxembourg</string></item>
+        <item><string>Antananarivo, Madagascar</string></item>
+        <item><string>Lilongwe, Malawi</string></item>
+        <item><string>Kuala Lumpur, Malaysia</string></item>
+        <item><string>Male, Maldives</string></item>
+        <item><string>Bamako, Mali</string></item>
+        <item><string>Valletta, Malta</string></item>
+        <item><string>Majuro, Marshall Islands</string></item>
+        <item><string>Nouakchott, Mauritania</string></item>
+        <item><string>Port Louis, Mauritius</string></item>
+        <item><string>Mexico City, Mexico</string></item>
+        <item><string>Chisinau, Moldova</string></item>
+        <item><string>Monaco, Monaco</string></item>
+        <item><string>Ulaanbaatar, Mongolia</string></item>
+        <item><string>Podgorica, Montenegro</string></item>
+        <item><string>Rabat, Morocco</string></item>
+        <item><string>Maputo, Mozambique</string></item>
+        <item><string>Nay Pyi Taw, Myanmar</string></item>
+        <item><string>Windhoek, Namibia</string></item>
+        <item><string>Nauru</string></item>
+        <item><string>Kathmandu, Nepal</string></item>
+        <item><string>Amsterdam, Netherlands</string></item>
+        <item><string>Wellington, New Zealand</string></item>
+        <item><string>Managua, Nicaragua</string></item>
+        <item><string>Niamey, Niger</string></item>
+        <item><string>Abuja, Nigeria</string></item>
+        <item><string>Pyongyang, North Korea</string></item>
+        <item><string>North Macedonia, Northern Macedonia</string></item>
+        <item><string>Belfast, Northern Ireland</string></item>
+        <item><string>Oslo, Norway</string></item>
+        <item><string>Muscat, Oman</string></item>
+        <item><string>Islamabad, Pakistan</string></item>
+        <item><string>Melekeok, Palau</string></item>
+        <item><string>Panama City, Panama</string></item>
+        <item><string>Port Moresby, Papua New Guinea</string></item>
+        <item><string>Asuncion, Paraguay</string></item>
+        <item><string>Lima, Peru</string></item>
+        <item><string>Manila, Philippines</string></item>
+        <item><string>Warsaw, Poland</string></item>
+        <item><string>Lisbon, Portugal</string></item>
+        <item><string>Doha, Qatar</string></item>
+        <item><string>Bucharest, Romania</string></item>
+        <item><string>Moscow, Russia</string></item>
+        <item><string>Kigali, Rwanda</string></item>
+        <item><string>Basseterre, Saint Kitts and Nevis</string></item>
+        <item><string>Castries, Saint Lucia</string></item>
+        <item><string>Kingstown, Saint Vincent &amp; the Grenadines</string></item>
+        <item><string>Apia, Samoa</string></item>
+        <item><string>San Marino, San Marino</string></item>
+        <item><string>Sao Tome, Sao Tome and principe</string></item>
+        <item><string>Riyadh, Saudi Arabia</string></item>
+        <item><string>Edinburgh, Scotland</string></item>
+        <item><string>Dakar, Senegal</string></item>
+        <item><string>Belgrade, Serbia</string></item>
+        <item><string>Victoria, Seychelles</string></item>
+        <item><string>Freetown, Sierra Leone</string></item>
+        <item><string>Singapore, Singapore</string></item>
+        <item><string>Bratislava, Slovakia</string></item>
+        <item><string>Ljubljana, Slovenia</string></item>
+        <item><string>Honiara, Solomon Islands</string></item>
+        <item><string>Mogadishu, Somalia</string></item>
+        <item><string>Pretoria, South Africa</string></item>
+        <item><string>Seoul, South Korea</string></item>
+        <item><string>Juba, South Sudan</string></item>
+        <item><string>Madrid, Spain</string></item>
+        <item><string>Sri Jayawardenapura Kotte, Sri Lanka</string></item>
+        <item><string>Khartoum, Sudan</string></item>
+        <item><string>Paramaribo, Suriname</string></item>
+        <item><string>Stockholm, Sweden</string></item>
+        <item><string>Bern, Switzerland</string></item>
+        <item><string>Taipei, Taiwan</string></item>
+        <item><string>Dushanbe, Tajikistan</string></item>
+        <item><string>Dodoma, Tanzania</string></item>
+        <item><string>Bangkok, Thailand</string></item>
+        <item><string>Lome, Togo</string></item>
+        <item><string>Nuku\'alofa, Tonga</string></item>
+        <item><string>Port of Spain, Trinidad and Tobago</string></item>
+        <item><string>Tunis, Tunisia</string></item>
+        <item><string>Ankara, Turkey</string></item>
+        <item><string>Ashgabat, Turkmenistan</string></item>
+        <item><string>Funafuti, Tuvalu</string></item>
+        <item><string>Kampala, Uganda</string></item>
+        <item><string>Kiev, Ukraine</string></item>
+        <item><string>Montevideo, Uruguay</string></item>
+        <item><string>Tashkent, Uzbekistan</string></item>
+        <item><string>Port Vila, Vanuatu</string></item>
+        <item><string>Vatican City, Vatican City</string></item>
+        <item><string>Caracas, Venezuela</string></item>
+        <item><string>Hanoi, Vietnam</string></item>
+        <item><string>Cardiff, Wales</string></item>
+        <item><string>Sana\'a, Yemen</string></item>
+        <item><string>Lusaka, Zambia</string></item>
+        <item><string>Harare, Zimbabwe</string></item>
+
+        <!-- Home Cities -->
+        <!-- United States State -->
+        <item><string>Alabama, USA</string></item>
+        <item><string>Alaska, USA</string></item>
+        <item><string>Arizona, USA</string></item>
+        <item><string>California, USA</string></item>
+        <item><string>Chicago, USA</string></item>
+        <item><string>Florida, USA</string></item>
+        <item><string>Georgia, USA</string></item>
+        <item><string>Hawaii, USA</string></item>
+        <item><string>Illinois, USA</string></item>
+        <item><string>Los Angles, USA</string></item>
+        <item><string>Texas, USA</string></item>
+        <item><string>New York, USA</string></item>
+        <item><string>New Jersey, USA</string></item>
+        <item><string>Ohio, USA</string></item>
+        <item><string>Oregon, USA</string></item>
+        <item><string>Washington, USA</string></item>
+
+        <!-- Syria Cities -->
+        <item><string>Aleppo, Syria</string></item>
+        <item><string>Al Hasakah, Syria</string></item>
+        <item><string>Al Qamishli, Syria</string></item>
+        <item><string>Al Qunaytirah, Syria</string></item>
+        <item><string>Al Raqqah, Syria</string></item>
+        <item><string>Al Suwayda, Syria</string></item>
+        <item><string>Damascus, Syria</string></item>
+        <item><string>Daraa, Syria</string></item>
+        <item><string>Deir ez-Zor, Syria</string></item>
+        <item><string>Hamah, Syria</string></item>
+        <item><string>Homs, Syria</string></item>
+        <item><string>Idlib, Syria</string></item>
+        <item><string>Latakia, Syria</string></item>
+        <item><string>Ma\'lula, Syria</string></item>
+        <item><string>Palmyra, Syria</string></item>
+        <item><string>Tartus, Syria</string></item>
+
+        <!-- UAE Cities -->
+        <item><string>Abu Dhabi, UAE</string></item>
+        <item><string>Ajman, UAE</string></item>
+        <item><string>Dubai, UAE</string></item>
+        <item><string>Fujairah, UAE</string></item>
+        <item><string>Ras al Khaimah, UAE</string></item>
+        <item><string>Sharjah, UAE</string></item>
+        <item><string>Umm al Quwain, UAE</string></item>
+
+        <!-- UK Cities -->
+        <item><string>Birmingham, UK</string></item>
+        <item><string>Bradford, UK</string></item>
+        <item><string>London, UK</string></item>
+        <item><string>Liverpool, UK</string></item>
+        <item><string>Manchester, UK</string></item>
+        <item><string>Nottingham, UK</string></item>
+        <item><string>Sheffield, UK</string></item>
+
+        <!-- Jordan Cities -->
+        <item><string>Amman, Jordan</string></item>
+        <item><string>Ajloun, Jordan</string></item>
+        <item><string>Aqaba, Jordan</string></item>
+        <item><string>Balqa, Jordan</string></item>
+        <item><string>Irbid, Jordan</string></item>
+        <item><string>Madaba, Jordan</string></item>
+        <item><string>Mafraq, Jordan</string></item>
+        <item><string>Zarqa, Jordan</string></item>
+
+    </string-array>
+</resources>
